@@ -12,7 +12,6 @@ class Triangle
    #if any of these conditions below return false 
    if (s1 * s2 * s3) == 0 || (s1 + s2) <= s3 || (s2 + s3) <= s1 || (s3 + s1) <= s2
     raise TriangleError
-    end
   
   elsif  s1 == s2 && s1 == s3
    self.kind = :equilateral
