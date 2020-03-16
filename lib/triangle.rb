@@ -9,7 +9,7 @@ class Triangle
   end
   
   def kind 
-   self.equilateral = equilateral
-   binding.pry
+   #if any of these conditions below return false 
+   
   end
 end
