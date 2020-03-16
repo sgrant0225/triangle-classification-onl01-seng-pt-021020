@@ -10,5 +10,6 @@ class Triangle
   
   def kind 
    self.equilateral = equilateral
+   binding.pry
   end
 end
