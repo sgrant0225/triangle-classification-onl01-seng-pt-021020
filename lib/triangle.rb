@@ -23,10 +23,10 @@ class Triangle
     :scalene
    end
   end
- end
 
 class TriangleError < StandardError
   def message 
     "One side cannot exceed any two sides combined and all sides must be larger than zero!"
   end
+ end
 end
