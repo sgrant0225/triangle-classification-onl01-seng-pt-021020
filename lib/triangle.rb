@@ -1,6 +1,6 @@
 require 'pry'
 class Triangle
-   attr_accessor :s1, :s2, :s3, :kind
+   attr_accessor :s1, :s2, :s3
     
   def initialize(s1, s2, s3)
    @s1 = s1
@@ -16,11 +16,11 @@ class Triangle
     end
   
   elsif  s1 == s2 && s1 == s3
-   self.kind = :equilateral
+   :equilateral
   elsif s1 == s2 || s1 == s3 || s2 == s3 
-   self.kind = :isosceles
+    :isosceles
   else
-    self.kind = :scalene
+    :scalene
    end
   end
  end
