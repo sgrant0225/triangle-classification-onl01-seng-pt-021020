@@ -20,9 +20,10 @@ class Triangle
    self.kind = :equilateral
   elsif s1 == s2 || s1 == s3 || s2 == s3 
    self.kind = :isosoceles
-   
-   end
+  else
+    self.kind = :scalene
   end
+ end
 end
 
 class TriangleError < StandardError
