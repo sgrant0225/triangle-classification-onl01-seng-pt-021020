@@ -14,7 +14,8 @@ class Triangle
     begin 
      raise TriangleError
     end
-    
+  
+  elsif   
    
    end
   end
